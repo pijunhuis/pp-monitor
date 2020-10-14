@@ -1,0 +1,23 @@
+{
+  "name": "pp-monitor-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=develop rollup -c --watch",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "rollup": "^2.29.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
